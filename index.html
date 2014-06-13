@@ -1,8 +1,8 @@
 <!DOCTYPE html>
 <!--
-	Copyright (c) 2011-2013 Brian Cavalier
-	This is a basic HTML template for creating slide presentations using
-	the slide framework.
+    Copyright (c) 2011-2013 Brian Cavalier
+    This is a basic HTML template for creating slide presentations using
+    the slide framework.
  -->
 
 <!-- Parts from HTML5 Boilerplate: http://html5boilerplate.com -->
@@ -14,43 +14,35 @@
 <!--[if IE 9 ]>    <html lang="en" class="ie9"> <![endif]-->
 <!--[if (gt IE 9)|!(IE)]><!--> <html lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-	<title>HTML Slide Presentation Framework</title>
-	<meta name="description" content="HTML Slide Presentation framework">
-	<meta name="author" content="Brian Cavalier">
+    <title>HTML Slide Presentation Framework</title>
+    <meta name="description" content="HTML Slide Presentation framework">
+    <meta name="author" content="Brian Cavalier">
 
-	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
-	<meta name="apple-mobile-web-app-capable" content="yes"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, maximum-scale=1.0">
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
 
-	<!-- Ensure no FUOC in the slides -->
-	<style type="text/css">
-		.presentation-loading * {
-			visibility: hidden;
-		}
-	</style>
+    <!-- Ensure no FUOC in the slides -->
+    <style type="text/css">
+        .presentation-loading * {
+            visibility: hidden;
+        }
+    </style>
 
-	<script data-curl-run="app/run.js" src="bower_components/curl/src/curl.js"></script>
+    <script data-curl-run="app/run.js" src="bower_components/curl/src/curl.js"></script>
 </head>
 
 <!-- Avoid any FUOC by adding presentation-loading, which the framework
      will remove later once the first slide is ready -->
 <body class="presentation-loading">
 
-	<div>
-		<!-- The container to hold the slides -->
-		<div id="slide-container">
+    <div>
+        <!-- The container to hold the slides -->
+        <div id="slide-container"></div>
 
-		</div>
-
-		<!-- Extra notes -->
-		<footer>
-			<p class="slide-no-touch">Use <em>left/right arrows, or space</em> to move between slides</p>
-			<p class="slide-touch"><em>Swipe left or right</em> to move between slides</p>
-			<p>Copyright &copy; 2011-2013 Brian Cavalier</p>
-		</footer>
-	</div>
+    </div>
 
 </body>
 </html>

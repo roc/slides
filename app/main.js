@@ -12,6 +12,7 @@ define([
 	'css!highlightjs/styles/ir_black.css',
 	'css!themes/black/theme.css',
 	'css!themes/fade.css',
+	'css!themes/extras.css',
 	'domReady!'
 ],
 	function (require, Model, View, Controller, compose, fetch, markdown, highlight, split) {
@@ -20,7 +21,7 @@ define([
 		splitSlides = /\s*\<hr\s*\/?\>\s*/i;
 		source = compose(fetch(require), split(splitSlides));
 
-		model = new Model(source('slides/slides.html'));
+		model = new Model(source('slides/sharks-june-12.html'));
 		view = new View(document.getElementById('slide-container'), model);
 		controller = new Controller(view);
 
