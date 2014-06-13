@@ -5,19 +5,20 @@
  */
 
 .slide {
-	transition:         opacity 400ms ease;
-	-webkit-transition: opacity 400ms ease;
-	-moz-transition:    opacity 400ms ease;
-	-o-transition:      opacity 400ms ease;
-	-khtml-transition:  opacity 400ms ease;
-	-ms-transition:     opacity 400ms ease;
-	
+	/*transition:         opacity 0ms;*/
+	/*-webkit-transition: opacity 0ms;*/
+	/*-moz-transition:    opacity 0ms;*/
+	/*-o-transition:      opacity 0ms;*/
+	/*-khtml-transition:  opacity 0ms;*/
+	/*-ms-transition:     opacity 0ms;*/
+
 	opacity: 0;
 }
 
-.slide-view-module .slide-before, .slide-view-module .slide-after {
+.slide-view-module .slide-before,
+.slide-view-module .slide-after {
 	position: absolute;
-	z-index: -1;
+	/*z-index: -1;*/
 }
 .slide-current {
 	opacity: 1;
