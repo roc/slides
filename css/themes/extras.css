@@ -12,7 +12,7 @@
 
 html, body{
     -webkit-font-smoothing:antialiased;
-    font-family: 'GDSTransport';
+    font-family: 'GDSTransport', helvetica, sans-serif;
 }
 
 html, body, body div:first-of-type{
@@ -25,7 +25,8 @@ html, body, body div:first-of-type{
 
 .slide h1,
 .slide h2{
-    font-family: 'GDSTransportBold';
+    font-family: 'GDSTransportBold', helvetica, sans-serif;
+    font-weight: bold;
     text-shadow:0 0 2px black;
     color: white;
 }
